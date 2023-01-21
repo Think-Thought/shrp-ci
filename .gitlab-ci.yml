@@ -2,7 +2,7 @@ image: ghcr.io/sushrut1101/docker:arch
 
 variables:
   FOX_SYNC: "https://gitlab.com/OrangeFox/sync.git"
-  CONFIG: "config3.sh"
+  CONFIG: "config.sh"
 
 OrangeFox-CI:
   stage: build
