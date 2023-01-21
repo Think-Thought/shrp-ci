@@ -1,3 +1,5 @@
+[![Build Status](https://api.cirrus-ci.com/github/Nico170420/shrp.ci.svg)](https://cirrus-ci.com/github/Nico170420/shrp-ci)
+
 # Skyhawk Recovery CI
 A Free CI to Build Skyhawk Recovery
 
