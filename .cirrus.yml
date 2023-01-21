@@ -1,5 +1,6 @@
 env:
-
+    GITHUB_TOKEN: ENCRYPTED[63126c9152d2fede43ec7f7a5e4ed3fc1f407cd838c60411dc92933a9cffd8fa6a79af3cc44e898cc0cdc09ccf483ffd]
+    
     # Cirrus Specific Vars (Do *NOT* Change)
     CIRRUS_SHELL: bash
 
