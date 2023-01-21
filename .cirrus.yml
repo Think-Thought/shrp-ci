@@ -9,7 +9,16 @@ task:
   container:
       image: ghcr.io/sushrut1101/docker:arch
       cpu: 8
-      memory: 20G
+      memory: 40G
 
-  Checks_script:
-      -curl -sL https://raw.githubusercontent.com/Nico170420/script/main/config.sh | bash
+  clone_script:
+      - curl -sL https://raw.githubusercontent.com/Nico170420/CI-Scripts/shrp/clone.sh | bash
+
+  building_script:
+      - curl -sL https://raw.githubusercontent.com/Nico170420/CI-Scripts/shrp/building.sh | bash
+
+  Upload_script:
+      - curl -sL https://raw.githubusercontent.com/Nico170420/CI-Scripts/shrp/upload.sh | bash
+
+  Upload2_script:
+      - curl -sL https://raw.githubusercontent.com/Nico170420/CI-Scripts/shrp/upload2.sh | bash
