@@ -12,14 +12,17 @@ task:
       cpu: 8
       memory: 32G
 
-  clone_script:
-      - curl -sL https://raw.githubusercontent.com/Nico170420/CI-Scripts/shrp/clone.sh | bash
+  Repo_Dync_script:
+      - curl -sL https://raw.githubusercontent.com/Nico170420/RecoveryBuilderCIScripts/shrp/reposync.sh | bash
+      
+  Device_Tree_Cloning_script:
+      - curl -sL https://raw.githubusercontent.com/Nico170420/RecoveryBuilderCIScripts/shrp/dtclone.sh | bash
 
-  building_script:
-      - curl -sL https://raw.githubusercontent.com/Nico170420/CI-Scripts/shrp/building.sh | bash
+  Building_script:
+      - curl -sL https://raw.githubusercontent.com/Nico170420/RecoveryBuilderCIScripts/shrp/building.sh | bash
 
-  Upload_script:
-      - curl -sL https://raw.githubusercontent.com/Nico170420/CI-Scripts/shrp/upload.sh | bash
+  Uploading_script:
+      - curl -sL https://raw.githubusercontent.com/Nico170420/RecoveryBuilderCIScripts/shrp/uploading.sh | bash
 
   #Upload2_script:
       #- curl -sL https://raw.githubusercontent.com/Nico170420/CI-Scripts/shrp/upload2.sh | bash
