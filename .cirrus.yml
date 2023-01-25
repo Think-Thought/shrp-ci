@@ -13,16 +13,16 @@ task:
       memory: 32G
 
   Repo Sync_script:
-      - curl -sL https://raw.githubusercontent.com/Nico170420/RecoveryBuilderCIScripts/shrp/reposync.sh | bash
+      - curl -sL https://raw.githubusercontent.com/U89-sk/RecoveryBuilderCIScripts/main/reposync.sh | bash
       
   Device Tree Cloning_script:
-      - curl -sL https://raw.githubusercontent.com/Nico170420/RecoveryBuilderCIScripts/shrp/dtclone.sh | bash
+      - curl -sL https://raw.githubusercontent.com/U89-sk/RecoveryBuilderCIScripts/main/dtclone.sh | bash
 
   Building_script:
-      - curl -sL https://raw.githubusercontent.com/Nico170420/RecoveryBuilderCIScripts/shrp/building.sh | bash
+      - curl -sL https://raw.githubusercontent.com/U89-sk/RecoveryBuilderCIScripts/main/building.sh | bash
 
   Uploading_script:
-      - curl -sL https://raw.githubusercontent.com/Nico170420/RecoveryBuilderCIScripts/shrp/uploading.sh | bash
+      - curl -sL https://raw.githubusercontent.com/U89-sk/RecoveryBuilderCIScripts/main/uploading.sh | bash
 
   #Upload2_script:
       #- curl -sL https://raw.githubusercontent.com/Nico170420/CI-Scripts/shrp/upload2.sh | bash
